@@ -1,5 +1,5 @@
 # Site settings
-title: The Minimum Viable Model
+title: The Site of Dove's Fan
 description: 'Artificial Intelligence trends and concepts made easy.' # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -80,3 +80,11 @@ plugins:
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+
+comments :
+  gitalk :
+    clientID : 853f916c0c2403ac45a0
+    clientSecret : 2661a849dfe79c9b066c1fda3fa072aa9b6ddacd
+    repo : backy_comments
+    owner : backy77
+    admin : [backy77]
